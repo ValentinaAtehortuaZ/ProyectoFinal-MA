@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/styles.css">
     <title>Spotify</title>
+    <script src="https://kit.fontawesome.com/cd05f200bb.js" crossorigin="anonymous"></script>
+   
 </head>
 
 <body>
-    <div class="container">
+    <div class="container position-absolute w-100">
         <aside>
             <div class="menu">
                 <a class="active" href="#"><span><img src="img/home.svg" alt=""></span>Inicio</a>
@@ -28,14 +30,25 @@
                     <span class="btn_next"><img src="img/next.svg" alt=""></span>
                 </div>
 
-                <div class="suscribcion">
-                    <div class="mejora_cuenta">
-                        <button>MEJORAR TU CUENTA</button>
+                <div class="nav-middle flex-div position">
+                    <div class="search-box flex-div">
+                        <input type="text" placeholder="Artístas">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <div class="perfil">
-                        <span class="circulo"><img src="img/user.svg" alt=""></span>
-                        <span class="nombre">Usuario</span>
-                        <span><img src="img/salir.svg" alt=""></span>
+                   
+        
+                </div>
+
+                <div class="suscribcion">
+                   
+                    
+                    <div >
+                        <a  class="registro" href="formulariosRegistro.html">Regístrate</a>
+                    </div>
+                    
+                    <div class="mejora_cuenta">
+                        <a href="loginvista.html"><button>Iniciar sesión</button></a>
+                        
                     </div>
                 </div>
             </header>
@@ -154,6 +167,7 @@
         </footer>
 
     </div>
+    
 </body>
 
 </html>
